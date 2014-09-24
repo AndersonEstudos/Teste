@@ -1,13 +1,11 @@
 package teste.git.Testepessoa;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Pessoa pessoa = new Pessoa();
+        System.out.println( pessoa.toString() );
     }
 }
